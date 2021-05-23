@@ -7,12 +7,14 @@
 
     <meta name="viewport" content="width=device-width"/>
 
-    <title>Oriental House</title>
+    <title>Inici</title>
 
 
     <link rel="stylesheet" media="only screen and (max-width:424px)" href="mobil.css">
     <link rel="stylesheet" media="only screen and (min-width:425px)" href="pc.css">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="img/logoup.png" />
 
@@ -25,33 +27,55 @@
     <header>
 
       <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
-    <label for="abrir-cerrar" class="toggle-button">
-        <span class="cerrar" title="Cerrar">
-          <div class="ham"><form action="file:///C:/Users/mirei/Desktop/NIHON_WEB/index.htmll" method="post" target="_blank">Inici</div>
+            <label for="abrir-cerrar" class="toggle-button">
+      <span  class="cerrar" title="Cerrar">
 
-          <div class="ham"> <form action="file:///C:/Users/mirei/Desktop/NIHON_WEB/quisom/quisom.html" method="post" target="_blank">Qui som?</div>
+      <ul id="ham">
 
-          <div class="ham"> <form action="file:///C:/Users/mirei/Desktop/NIHON_WEB/aperitius/aperitus.html" method="post" target="_blank">Aperitius</div>
+      <li><a href="quisom/index.html">Qui som?</a></li>
+      <li><a href="aperitius/index.html">Aperitius</a></li>
+      <li><a href="principals/index.html">Principals</a></li>
+      <li><a href="postres/index.html">Postres</a></li>
+      <li><a href="Subscripcion/index.html">Subscriu-te</a></li>
 
-          <div class="ham"> <form action="file:///Users/mirei/Desktop/formularios/formulari%203/otro/Index.html" method="post" target="_blank">Principals</div>
-
-          <div class="ham"> <form action="file:///Users/mirei/Desktop/formularios/formulari%203/otro/Index.html" method="post" target="_blank">Postres</div>
-
-
-        </span>
-        <span class="abrir" title="Abrir"></span>
+    </ul>
+    </span>
+      <span class="abrir" title="Abrir"></span>
     </label>
+
+<!-- menu desplegable -->
+
+    <nav class="menuCSS3">
+		<ul>
+			<li><a href="index.html">Inici</a>
+        <ul>
+          <li><a href="Subscripcion/index.html">Subscriu-te</a></li>
+        </ul>
+      </li>
+
+			<li><a href="#">Receptes</a>
+				<ul>
+					<li><a href="aperitius/index.html">Aperitius</a></li>
+					<li><a href="principals/index.html">Principals</a></li>
+					<li><a href="postres/index.html">Postres</a></li>
+				</ul>
+			</li>
+			<li><a href="quisom/index.html">Qui som?</a></li>
+			</li>
+		</ul>
+	</nav>
 
     </header>
 
+    <h1>LOG IN</h1>
 
-      <div id="presentacion"> Vols aprendre a cuinar, et troves al lloc indicat, subsciute i disfruta d'una varietat de receptes asiariques. </div>
+      <div id="presentacion"> Si vols aprendre a cuinar, et troves al lloc indicat, subscriu-te i disfruta d'una varietat de receptes asiàtiques. </div>
 
     <div id="usuario">
 
-      <form action="file:///Users/Mireio/Desktop/NIHON_WEB/quisom/quisom.html" method="post" target="_blank">
+      <form action="../quisom/quisom.html" method="get" target="_blank">
 
-        <input placeholder="Correu electronic o Nom d'usuari">
+        <input placeholder="Nom d'usuari">
         <input type="password" placeholder="Contrasenya">
         <input type="submit" value="Enter" id="envia">
 

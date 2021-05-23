@@ -2,6 +2,9 @@
   body{
     margin: 0px;
   }
+input{
+  display: none;
+}
 }
 
 header{
@@ -18,15 +21,22 @@ header{
 
 }
 
+h1{
+  color: black;
+  margin-top: 150px;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 80px;
+}
 
-input#abrir-cerrar {
+input#abrir-cerrar {   /* esto es la anvorgesa*/
         visibility:hidden;
         position: absolute;
 
     }
 
     .toggle-button {
-        display:block;
+        display:none;
         width:50px;
         height:50px;
         background-color: black;
@@ -99,45 +109,68 @@ input#abrir-cerrar {
         display:block;
     }
 
-.ham{
-  width: 50px;
-  height: 100px;
-  background-color: red;
-  color: white;
-  text-align: right;
+  #ham{
+    background-color: black;
+    width: 120px;
+    height: 170px;
+    font-size: 25px;
+    margin-top: 50px;
+    float: right;
+    }
+
+.menuCSS3 ul {
+  display: flex;
+  float: right;
+  padding: 0;
+	margin: 0;
+  list-style: none;
+}
+.menuCSS3 a {
+	display: block;
+	padding: 2em;
+	background-color: black;
+	text-decoration: none;
+	color: white;
+  font-family: rubik;
+}
+  .menuCSS3 a:hover {
+    background-color: #FF0D17;
+}
+  .menuCSS3 ul li ul {
+    display: none;
+}
+  .menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
 }
 
 #presentacion{
-  height: 100px;
-  width: 400px;
+  height: 200px;
+  width: 700px;
   text-align: center;
-  line-height: 20px;
-  margin-top: 120px;
-  margin-left: 550px;
+  margin: 0 auto;
+  font-family: rubik;
+  font-size: 40px;
 }
 
 #usuario{
   margin: 0 auto;
   margin-top: 10px;
-  background-color: ;
   color: white;
-  width: 200px;
-  height: 300px;
-  font-size: 50px;
 }
 
 input{
-  width: 200px;
+  width: 300px;
+  height: 50px;
   display: block;
   margin-top: 20px;
+  font-size: 30px;
+  margin-left: 42%;
 }
 
 #envia{
   width: 100px;
-  margin-left: 50px;
-
+  margin-left: 47%;
 }
-
 
 footer{
   background-color: black;
@@ -150,5 +183,5 @@ footer{
 img{
   width: 30px;
   margin-top: 4px;
-  margin-left: 700px;
+  margin-left: 49%;
 }
