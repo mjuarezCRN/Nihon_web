@@ -1,6 +1,5 @@
 @media screen and (max-width:424px) {
   body{
-    background-color:;
     margin:0px;
   }
 }
@@ -34,7 +33,7 @@ input#abrir-cerrar {
         position:relative;
         cursor: pointer;
         box-sizing: border-box;
-        margin-left: 370px;
+        margin-left: 360px;
         margin-top: 20px;
     }
 
@@ -108,16 +107,38 @@ input#abrir-cerrar {
   text-align: right;
 }
 
-
-#gyozas{
+#presentacion{
+  height: 100px;
+  width: 400px;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 120px;
   margin-left: 10px;
-  margin-top: 100px;
 }
 
-#tempura{
-  margin-left: 10px;
-  margin-top: 100px;
+#usuario{
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-right:20px;
+  color: white;
+  width: 200px;
+  height: 300px;
+  font-size: 50px;
 }
+
+input{
+  width: 200px;
+  display: block;
+  margin-top: 20px;
+  border: 1px, black;
+}
+
+#envia{
+  width: 100px;
+  margin-left: 50px;
+
+}
+
 
 footer{
   background-color: black;
