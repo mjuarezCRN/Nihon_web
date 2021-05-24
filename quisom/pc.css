@@ -144,7 +144,7 @@ input#abrir-cerrar {   /* esto es la anvorgesa*/
 .fotitos , img{
   width: 900px;
   height: 600px;
-  margin-top: 400px;
+  margin-top: 600px;
   margin-left: -300px;
   position: absolute;
 }
@@ -156,7 +156,8 @@ input#abrir-cerrar {   /* esto es la anvorgesa*/
 }
 
 .puntitos{
-  margin-left: 880px;
+  margin: 0 auto;
+  background-color: pink
 }
 
 .dot {
@@ -204,15 +205,16 @@ h1{
   text-align: center;
   margin: 0 auto;
   font-family: rubik;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 footer{
   background-color: black;
   height: 50px;
   bottom: 0px;
+  top: 800px;
   width: 100%;
-  position: fixed;
+  position: relative;
 }
 
 img{

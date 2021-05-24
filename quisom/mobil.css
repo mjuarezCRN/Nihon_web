@@ -22,17 +22,15 @@ header{
   background-repeat: no-repeat;
   background-position: left;
   background-size: 250px;
-
 }
-
 
 
   /*anvorgesa*/
-input#abrir-cerrar {
+  input#abrir-cerrar {
     visibility:hidden;
     position: absolute;
     top: -9999px;
-}
+  }
 
 .toggle-button {
     display:inline-block;
@@ -45,6 +43,7 @@ input#abrir-cerrar {
     margin: 15px;
     margin-top: 25px;
     margin-right: 40px;
+
 }
 
 .toggle-button:before, .toggle-button:after {
@@ -95,10 +94,12 @@ input#abrir-cerrar {
 
           .abrir {
               display:inline-block;
+
           }
 
           .cerrar {
               display:none;
+
           }
 
           input#abrir-cerrar:checked + .toggle-button .abrir {
@@ -119,6 +120,7 @@ margin-top: 50px;
 padding: 10px;
 float: right;
 list-style: none;
+
 }
 
 a{
@@ -154,7 +156,7 @@ margin: 0 auto;
 }
 
 .puntitos{
-margin-left: 170px;
+margin-left: 140px;
 }
 
 .dot {
@@ -171,22 +173,6 @@ transition: background-color 0.6s ease;
 background-color: black;
 }
 
-.fade {
--webkit-animation-name: fade;
--webkit-animation-duration: 1.5s;
-animation-name: fade;
-animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-from {opacity: .4}
-to {opacity: 1}
-}
-
-@keyframes fade {
-from {opacity: .4}
-to {opacity: 1}
-}
 
 h1{
 color: black;
@@ -212,13 +198,6 @@ input{
   margin-top: 10px;
   border: 1px, black;
 }
-
-#envia{
-  width: 100px;
-  margin-left: 50px;
-
-}
-
 
 footer{
   background-color: black;
