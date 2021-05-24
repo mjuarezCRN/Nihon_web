@@ -2,9 +2,9 @@
   body{
     margin: 0px;
   }
-  input{
-    display: none;
-  }
+input{
+  display: none;
+}
 }
 
 header{
@@ -21,15 +21,22 @@ header{
 
 }
 
-/* anvorgesa*/
-input#abrir-cerrar {
+h1{
+  color: black;
+  margin-top: 150px;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 80px;
+}
+
+input#abrir-cerrar {   /* esto es la anvorgesa*/
         visibility:hidden;
         position: absolute;
 
     }
 
     .toggle-button {
-        display:block;
+        display:none;
         width:50px;
         height:50px;
         background-color: black;
@@ -109,7 +116,7 @@ input#abrir-cerrar {
     font-size: 25px;
     margin-top: 50px;
     float: right;
-}
+    }
 
 .menuCSS3 ul {
   display: flex;
@@ -137,25 +144,50 @@ input#abrir-cerrar {
 }
 
 #presentacion{
-  /*si esto se quita explota la web :)*/
 }
 
-input{
-  width: 200px;
-  display: block;
-  margin-top: 20px;
+#contenedor{
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 30px;
 }
 
+.ingredientes{
+  border: black 1px solid;
+  width: 900px;
+  height: 500px;
+
+}
+
+p{
+  font-size: 20px;
+  font-family: Rubik;
+}
+
+.recetas{
+  text-align: justify;s
+  font-size: 60px;
+  font-family: Rubik;
+  margin-top: 5px;
+}
+
+.fotos{
+  width: 70%;
+  height: 400px;
+  margin: 0 auto;
+  margin-left: 15%;
+}
 footer{
   background-color: black;
   height: 50px;
-  bottom: 0px;
+  top: 4850px;
   width: 100%;
-  position: fixed;
+  position: absolute;
 }
 
 img{
   width: 30px;
   margin-top: 4px;
-  margin-left: 700px;
+  margin-left: 49%;
 }
